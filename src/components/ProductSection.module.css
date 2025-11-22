@@ -1,0 +1,59 @@
+.section {
+    padding: 4rem 2rem;
+    background: var(--background);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    background: var(--muted);
+    color: #666;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background: #e0e0e0;
+}
+
+.activeTab {
+    background: var(--foreground);
+    color: var(--background);
+}
+
+.categoryGroup {
+    margin-bottom: 4rem;
+}
+
+.categoryTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    border-left: 4px solid var(--foreground);
+    padding-left: 1rem;
+}
+
+.productsRow {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .productsRow {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}

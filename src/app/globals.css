@@ -1,27 +1,22 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Appetizing Warm Palette for Snacks */
+  --background: #fffcf5;
+  /* Very subtle warm cream */
+  --foreground: #2d2a26;
+  /* Dark charcoal, softer than black */
+  --muted: #f7f1e3;
+  /* Warm beige for backgrounds */
+  --border: #e6dcc3;
+  /* Warm border */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Vibrant Accents */
+  --accent: #ff6b35;
+  /* Appetizing Orange-Red */
+  --accent-hover: #e85d2a;
+  --secondary: #f7c548;
+  /* Warm Gold/Yellow */
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 * {
@@ -30,13 +25,24 @@ body {
   margin: 0;
 }
 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-main);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
 }

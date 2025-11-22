@@ -1,0 +1,155 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    background: var(--background);
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.closeButton {
+    color: var(--foreground);
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.closeButton:hover {
+    background: var(--muted);
+}
+
+.items {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+}
+
+.empty {
+    text-align: center;
+    color: #888;
+    margin-top: 2rem;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--muted);
+}
+
+.itemInfo h3 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.itemPrice {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: var(--muted);
+    padding: 0.4rem;
+    border-radius: 8px;
+}
+
+.controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.controls button:hover {
+    background: white;
+}
+
+.footer {
+    padding: 1.5rem;
+    border-top: 1px solid var(--border);
+    background: var(--background);
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.messageInput {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    resize: none;
+}
+
+.messageInput:focus {
+    outline: none;
+    border-color: var(--foreground);
+}
+
+.sendButton {
+    width: 100%;
+    padding: 1rem;
+    background: var(--foreground);
+    color: var(--background);
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: opacity 0.2s;
+}
+
+.sendButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.sendButton:hover:not(:disabled) {
+    opacity: 0.9;
+}
