@@ -1,182 +1,219 @@
 {
   "categories": [
     {
-      "id": "cat_20pz",
-      "name": "Paquetes de 20 piezas"
+      "id": "mayoreo",
+      "name": "Paquete de 20 piezas"
     },
     {
-      "id": "cat_2kg",
-      "name": "2kg"
+      "id": "1kg",
+      "name": "1 Kg"
     },
     {
-      "id": "cat_1kg",
-      "name": "1kg"
+      "id": "half_kg",
+      "name": "1/2 Kg"
     },
     {
-      "id": "cat_ind",
-      "name": "Paquetes individuales"
+      "id": "2kg",
+      "name": "2 Kg"
+    },
+    {
+      "id": "dulceros",
+      "name": "Dulceros"
+    },
+    {
+      "id": "tiras",
+      "name": "Tiras"
     }
   ],
   "products": [
     {
-      "id": "p20_1",
-      "name": "Papas Adobadas",
-      "category": "Paquetes de 20 piezas",
-      "image": "https://placehold.co/400x400/ff6b35/ffffff/png?text=Adobadas+20pz",
-      "grammage": "20 pz",
-      "providerCost": 250
+      "id": "p_1",
+      "name": "Palomita Jumbo",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_1.png",
+      "grammage": "50 - 55 g",
+      "providerCost": 115,
+      "pieces": 20
     },
     {
-      "id": "p20_2",
-      "name": "Rueditas de Harina",
-      "category": "Paquetes de 20 piezas",
-      "image": "https://placehold.co/400x400/f7c548/2d2a26/png?text=Rueditas+20pz",
-      "grammage": "20 pz",
-      "providerCost": 200
+      "id": "p_2",
+      "name": "Fritura Mixta con Chile",
+      "category": "1 Kg",
+      "image": "/p_2.png",
+      "grammage": "1 Kg",
+      "providerCost": 85,
+      "pieces": 1
     },
     {
-      "id": "p20_3",
-      "name": "Chicharrones de Cerdo",
-      "category": "Paquetes de 20 piezas",
-      "image": "https://placehold.co/400x400/e85d2a/ffffff/png?text=Chicharron+20pz",
-      "grammage": "20 pz",
-      "providerCost": 280
+      "id": "p_3",
+      "name": "Fritura Mixta",
+      "category": "1 Kg",
+      "image": "/p_3.png",
+      "grammage": "1 Kg",
+      "providerCost": 80,
+      "pieces": 1
     },
     {
-      "id": "p20_4",
-      "name": "Palomitas Mantequilla",
-      "category": "Paquetes de 20 piezas",
-      "image": "https://placehold.co/400x400/f7c548/2d2a26/png?text=Palomitas+20pz",
-      "grammage": "20 pz",
-      "providerCost": 180
+      "id": "p_4",
+      "name": "Fritura Cuadro",
+      "category": "1 Kg",
+      "image": "/p_4.png",
+      "grammage": "1 Kg",
+      "providerCost": 80,
+      "pieces": 1
     },
     {
-      "id": "p20_5",
-      "name": "Totopos Queso",
-      "category": "Paquetes de 20 piezas",
-      "image": "https://placehold.co/400x400/ff6b35/ffffff/png?text=Totopos+20pz",
-      "grammage": "20 pz",
-      "providerCost": 220
+      "id": "p_5",
+      "name": "Fritura Rin",
+      "category": "1 Kg",
+      "image": "/p_5.png",
+      "grammage": "1 Kg",
+      "providerCost": 80,
+      "pieces": 1
     },
     {
-      "id": "p2kg_1",
-      "name": "Cacahuates Japoneses",
-      "category": "2kg",
-      "image": "https://placehold.co/400x400/8d5524/ffffff/png?text=Cacahuates+2kg",
-      "grammage": "2 kg",
-      "providerCost": 220
+      "id": "p_6",
+      "name": "Fritura Mixta",
+      "category": "1/2 Kg",
+      "image": "/p_6.png",
+      "grammage": "1/2 Kg",
+      "providerCost": 45,
+      "pieces": 1
     },
     {
-      "id": "p2kg_2",
-      "name": "Papas Fritas Sal",
-      "category": "2kg",
-      "image": "https://placehold.co/400x400/f7c548/2d2a26/png?text=Papas+Sal+2kg",
-      "grammage": "2 kg",
-      "providerCost": 180
+      "id": "p_7",
+      "name": "Fritura Rin",
+      "category": "1/2 Kg",
+      "image": "/p_7.png",
+      "grammage": "1/2 Kg",
+      "providerCost": 48,
+      "pieces": 1
     },
     {
-      "id": "p2kg_3",
-      "name": "Churritos de Maíz",
-      "category": "2kg",
-      "image": "https://placehold.co/400x400/e85d2a/ffffff/png?text=Churritos+2kg",
-      "grammage": "2 kg",
-      "providerCost": 160
+      "id": "p_8",
+      "name": "Fritura Cuadro",
+      "category": "1/2 Kg",
+      "image": "/p_8.png",
+      "grammage": "1/2 Kg",
+      "providerCost": 48,
+      "pieces": 1
     },
     {
-      "id": "p2kg_4",
-      "name": "Gomitas Enchiladas",
-      "category": "2kg",
-      "image": "https://placehold.co/400x400/ff0000/ffffff/png?text=Gomitas+2kg",
-      "grammage": "2 kg",
-      "providerCost": 240
+      "id": "p_9",
+      "name": "Fritura Jumbo Mixta",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_9.png",
+      "grammage": "95 g",
+      "providerCost": 120,
+      "pieces": 20
     },
     {
-      "id": "p2kg_5",
-      "name": "Semillas de Girasol",
-      "category": "2kg",
-      "image": "https://placehold.co/400x400/333333/ffffff/png?text=Semillas+2kg",
-      "grammage": "2 kg",
-      "providerCost": 190
+      "id": "p_10",
+      "name": "Fritura Jumbo Cuadro",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_10.png",
+      "grammage": "95 g",
+      "providerCost": 120,
+      "pieces": 20
     },
     {
-      "id": "p1kg_1",
-      "name": "Mix Botanero",
-      "category": "1kg",
-      "image": "https://placehold.co/400x400/ff6b35/ffffff/png?text=Mix+1kg",
-      "grammage": "1 kg",
-      "providerCost": 120
+      "id": "p_11",
+      "name": "Fritura Jumbo Rin",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_11.png",
+      "grammage": "95 g",
+      "providerCost": 120,
+      "pieces": 20
     },
     {
-      "id": "p1kg_2",
-      "name": "Papas Fuego",
-      "category": "1kg",
-      "image": "https://placehold.co/400x400/ff0000/ffffff/png?text=Papas+Fuego+1kg",
-      "grammage": "1 kg",
-      "providerCost": 110
+      "id": "p_12",
+      "name": "Fritura Jumbo Combinada",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_12.png",
+      "grammage": "60 - 65 g",
+      "providerCost": 125,
+      "pieces": 20
     },
     {
-      "id": "p1kg_3",
-      "name": "Platanitos Fritos",
-      "category": "1kg",
-      "image": "https://placehold.co/400x400/f7c548/2d2a26/png?text=Platanitos+1kg",
-      "grammage": "1 kg",
-      "providerCost": 130
+      "id": "p_13",
+      "name": "Quesita",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_13.png",
+      "grammage": "95 g",
+      "providerCost": 110,
+      "pieces": 20
     },
     {
-      "id": "p1kg_4",
-      "name": "Cacahuates Salados",
-      "category": "1kg",
-      "image": "https://placehold.co/400x400/8d5524/ffffff/png?text=Cacahuates+1kg",
-      "grammage": "1 kg",
-      "providerCost": 100
+      "id": "p_14",
+      "name": "Arito con Chile",
+      "category": "Paquete de 20 piezas",
+      "image": "/p_14.png",
+      "grammage": "50 - 55 g",
+      "providerCost": 105,
+      "pieces": 20
     },
     {
-      "id": "p1kg_5",
-      "name": "Pretzels",
-      "category": "1kg",
-      "image": "https://placehold.co/400x400/5c3a21/ffffff/png?text=Pretzels+1kg",
-      "grammage": "1 kg",
-      "providerCost": 140
+      "id": "p_15",
+      "name": "Dulcero (30 pz)",
+      "category": "Dulceros",
+      "image": "/p_15.png",
+      "grammage": "15 - 20 g",
+      "providerCost": 80,
+      "pieces": 30
     },
     {
-      "id": "pind_1",
-      "name": "Bolsita Papas",
-      "category": "Paquetes individuales",
-      "image": "https://placehold.co/400x400/f7c548/2d2a26/png?text=Papas+Ind",
-      "grammage": "50g",
-      "providerCost": 15
+      "id": "p_16",
+      "name": "Dulcero (50 pz)",
+      "category": "Dulceros",
+      "image": "/p_16.png",
+      "grammage": "15 - 20 g",
+      "providerCost": 110,
+      "pieces": 50
     },
     {
-      "id": "pind_2",
-      "name": "Bolsita Churritos",
-      "category": "Paquetes individuales",
-      "image": "https://placehold.co/400x400/e85d2a/ffffff/png?text=Churritos+Ind",
-      "grammage": "60g",
-      "providerCost": 12
+      "id": "p_17",
+      "name": "Fritura Tira Natural",
+      "category": "Tiras",
+      "image": "/p_17.png",
+      "grammage": "95 g",
+      "providerCost": 11,
+      "pieces": 1
     },
     {
-      "id": "pind_3",
-      "name": "Bolsita Cacahuates",
-      "category": "Paquetes individuales",
-      "image": "https://placehold.co/400x400/8d5524/ffffff/png?text=Cacahuates+Ind",
-      "grammage": "40g",
-      "providerCost": 10
+      "id": "p_18",
+      "name": "Fritura Tira Cuadro con Chile",
+      "category": "Tiras",
+      "image": "/p_18.png",
+      "grammage": "95 g",
+      "providerCost": 11,
+      "pieces": 1
     },
     {
-      "id": "pind_4",
-      "name": "Barra de Amaranto",
-      "category": "Paquetes individuales",
-      "image": "https://placehold.co/400x400/f7f1e3/2d2a26/png?text=Amaranto+Ind",
-      "grammage": "30g",
-      "providerCost": 18
+      "id": "p_19",
+      "name": "Palomita en Tira",
+      "category": "Tiras",
+      "image": "/p_19.png",
+      "grammage": "95 g",
+      "providerCost": 11,
+      "pieces": 1
     },
     {
-      "id": "pind_5",
-      "name": "Bolsita Gomitas",
-      "category": "Paquetes individuales",
-      "image": "https://placehold.co/400x400/ff0000/ffffff/png?text=Gomitas+Ind",
-      "grammage": "50g",
-      "providerCost": 14
+      "id": "p_20",
+      "name": "Fritura Mix",
+      "category": "2 Kg",
+      "image": "/p_20.png",
+      "grammage": "2 Kg",
+      "providerCost": 160,
+      "pieces": 1
+    },
+    {
+      "id": "p_21",
+      "name": "Fritura Cuadro",
+      "category": "2 Kg",
+      "image": "/p_21.png",
+      "grammage": "2 Kg",
+      "providerCost": 160,
+      "pieces": 1
     }
   ]
 }

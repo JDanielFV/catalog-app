@@ -1,14 +1,10 @@
 "use client";
 
 import Image from 'next/image';
-import { Plus } from 'lucide-react';
-import { useCart } from '@/context/CartContext';
 import { motion } from 'framer-motion';
 import styles from './ProductCard.module.css';
 
 export default function ProductCard({ product }) {
-    const { addToCart } = useCart();
-
     return (
         <motion.div
             className={styles.card}
@@ -23,7 +19,7 @@ export default function ProductCard({ product }) {
                     alt={product.name}
                     fill
                     className={styles.image}
-                    unoptimized // For external placeholders
+                    sizes="(max-width: 768px) 50vw, 20vw"
                 />
             </div>
             <div className={styles.info}>
@@ -32,13 +28,6 @@ export default function ProductCard({ product }) {
                     <span className={styles.grammage}>{product.grammage}</span>
                     <span className={styles.price}>${product.providerCost}</span>
                 </div>
-                <button
-                    onClick={() => addToCart(product)}
-                    className={styles.addButton}
-                >
-                    <Plus size={18} />
-                    <span>Agregar</span>
-                </button>
             </div>
         </motion.div>
     );

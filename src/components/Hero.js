@@ -5,11 +5,11 @@ import styles from './Hero.module.css';
 import Image from 'next/image';
 
 const images = [
-    "https://placehold.co/400x600/ff6b35/ffffff/png?text=Papas+Fritas",
-    "https://placehold.co/400x600/f7c548/2d2a26/png?text=Chicharrones",
-    "https://placehold.co/400x600/e85d2a/ffffff/png?text=Palomitas",
-    "https://placehold.co/400x600/8d5524/ffffff/png?text=Cacahuates",
-    "https://placehold.co/400x600/ff0000/ffffff/png?text=Gomitas",
+    "/p_3.png",
+    "/p_4.png",
+    "/p_5.png",
+    "/p_15.png",
+    "/p_11.png",
 ];
 
 export default function Hero() {
@@ -51,7 +51,8 @@ export default function Hero() {
                             width={300}
                             height={450}
                             className={styles.image}
-                            unoptimized // For external placeholders
+                            sizes="(max-width: 768px) 100vw, 33vw"
+                            priority={index < 2}
                         />
                     </motion.div>
                 ))}

@@ -1,4 +1,4 @@
-import { CartProvider } from '@/context/CartContext';
+
 import './globals.css';
 
 export const metadata = {
@@ -8,11 +8,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <body>
-        <CartProvider>
-          {children}
-        </CartProvider>
+        {children}
       </body>
     </html>
   );

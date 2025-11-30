@@ -32,6 +32,12 @@ body {
   font-family: var(--font-main);
   background-color: var(--background);
   color: var(--foreground);
+  background-image: url('/bg-pattern.png'), linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)));
+  background-repeat: repeat, no-repeat;
+  background-size: 400px, cover;
+  background-attachment: fixed, fixed;
+  background-blend-mode: multiply, normal;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
 
