@@ -16,6 +16,24 @@ export default function Hero() {
     return (
         <section className={styles.hero}>
             <div className={styles.content}>
+
+                <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ delay: 0.4, type: "spring" }}
+                    className={styles.logoContainer}
+                >
+                    {/* Logo Image */}
+                    <div className={styles.logoWrapper}>
+                        <Image
+                            src="/Recurso 1.png"
+                            alt="Logo"
+                            fill
+                            className={styles.logoImage}
+                            priority
+                        />
+                    </div>
+                </motion.div>
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -24,16 +42,6 @@ export default function Hero() {
                 >
                     CATÁLOGO DE PRODUCTOS
                 </motion.h1>
-
-                <motion.div
-                    initial={{ scale: 0 }}
-                    animate={{ scale: 1 }}
-                    transition={{ delay: 0.4, type: "spring" }}
-                    className={styles.logoContainer}
-                >
-                    {/* Placeholder for Logo */}
-                    <div className={styles.logoPlaceholder}>LOGO</div>
-                </motion.div>
             </div>
 
             <div className={styles.imageGrid}>

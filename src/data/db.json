@@ -9,14 +9,6 @@
       "name": "1 Kg"
     },
     {
-      "id": "half_kg",
-      "name": "1/2 Kg"
-    },
-    {
-      "id": "2kg",
-      "name": "2 Kg"
-    },
-    {
       "id": "dulceros",
       "name": "Dulceros"
     },
@@ -30,8 +22,8 @@
       "id": "p_1",
       "name": "Palomita Jumbo",
       "category": "Paquete de 20 piezas",
-      "image": "/p_1.png",
-      "grammage": "50 - 55 g",
+      "image": "/p_1.jpg",
+      "grammage": "50 - 65 g",
       "providerCost": 115,
       "pieces": 20
     },
@@ -57,7 +49,7 @@
       "id": "p_4",
       "name": "Fritura Cuadro",
       "category": "1 Kg",
-      "image": "/p_4.png",
+      "image": "/p_4.jpg",
       "grammage": "1 Kg",
       "providerCost": 80,
       "pieces": 1
@@ -72,38 +64,11 @@
       "pieces": 1
     },
     {
-      "id": "p_6",
-      "name": "Fritura Mixta",
-      "category": "1/2 Kg",
-      "image": "/p_6.png",
-      "grammage": "1/2 Kg",
-      "providerCost": 45,
-      "pieces": 1
-    },
-    {
-      "id": "p_7",
-      "name": "Fritura Rin",
-      "category": "1/2 Kg",
-      "image": "/p_7.png",
-      "grammage": "1/2 Kg",
-      "providerCost": 48,
-      "pieces": 1
-    },
-    {
-      "id": "p_8",
-      "name": "Fritura Cuadro",
-      "category": "1/2 Kg",
-      "image": "/p_8.png",
-      "grammage": "1/2 Kg",
-      "providerCost": 48,
-      "pieces": 1
-    },
-    {
       "id": "p_9",
       "name": "Fritura Jumbo Mixta",
       "category": "Paquete de 20 piezas",
-      "image": "/p_9.png",
-      "grammage": "95 g",
+      "image": "/p_9.jpg",
+      "grammage": "50 - 65 g",
       "providerCost": 120,
       "pieces": 20
     },
@@ -111,8 +76,8 @@
       "id": "p_10",
       "name": "Fritura Jumbo Cuadro",
       "category": "Paquete de 20 piezas",
-      "image": "/p_10.png",
-      "grammage": "95 g",
+      "image": "/p_10.jpg",
+      "grammage": "50 - 65 g",
       "providerCost": 120,
       "pieces": 20
     },
@@ -121,7 +86,7 @@
       "name": "Fritura Jumbo Rin",
       "category": "Paquete de 20 piezas",
       "image": "/p_11.png",
-      "grammage": "95 g",
+      "grammage": "50 - 65 g",
       "providerCost": 120,
       "pieces": 20
     },
@@ -130,7 +95,7 @@
       "name": "Fritura Jumbo Combinada",
       "category": "Paquete de 20 piezas",
       "image": "/p_12.png",
-      "grammage": "60 - 65 g",
+      "grammage": "50 - 65 g",
       "providerCost": 125,
       "pieces": 20
     },
@@ -139,7 +104,7 @@
       "name": "Quesita",
       "category": "Paquete de 20 piezas",
       "image": "/p_13.png",
-      "grammage": "95 g",
+      "grammage": "50 - 65 g",
       "providerCost": 110,
       "pieces": 20
     },
@@ -148,7 +113,7 @@
       "name": "Arito con Chile",
       "category": "Paquete de 20 piezas",
       "image": "/p_14.png",
-      "grammage": "50 - 55 g",
+      "grammage": "50 - 65 g",
       "providerCost": 105,
       "pieces": 20
     },
@@ -195,24 +160,6 @@
       "image": "/p_19.png",
       "grammage": "95 g",
       "providerCost": 11,
-      "pieces": 1
-    },
-    {
-      "id": "p_20",
-      "name": "Fritura Mix",
-      "category": "2 Kg",
-      "image": "/p_20.png",
-      "grammage": "2 Kg",
-      "providerCost": 160,
-      "pieces": 1
-    },
-    {
-      "id": "p_21",
-      "name": "Fritura Cuadro",
-      "category": "2 Kg",
-      "image": "/p_21.png",
-      "grammage": "2 Kg",
-      "providerCost": 160,
       "pieces": 1
     }
   ]

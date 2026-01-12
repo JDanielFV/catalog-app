@@ -27,6 +27,7 @@
 .image {
     object-fit: cover;
     transition: transform 0.5s ease;
+    filter: saturate(1.2) brightness(1.1);
 }
 
 .card:hover .image {

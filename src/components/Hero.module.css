@@ -25,25 +25,22 @@
 }
 
 .logoContainer {
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 220px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.logoPlaceholder {
+.logoWrapper {
     width: 100%;
     height: 100%;
-    background: var(--foreground);
-    color: var(--background);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 0.8rem;
+    position: relative;
+}
+
+.logoImage {
+    object-fit: contain;
 }
 
 .imageGrid {
