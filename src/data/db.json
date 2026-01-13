@@ -46,15 +46,6 @@
       "pieces": 1
     },
     {
-      "id": "p_4",
-      "name": "Fritura mixta",
-      "category": "1 Kg",
-      "image": "/p_4.jpg",
-      "grammage": "1 Kg",
-      "providerCost": 80,
-      "pieces": 1
-    },
-    {
       "id": "p_23",
       "name": "Fritura Cuadro",
       "category": "1 Kg",
