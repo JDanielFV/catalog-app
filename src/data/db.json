@@ -47,9 +47,18 @@
     },
     {
       "id": "p_4",
-      "name": "Fritura Cuadro",
+      "name": "Fritura mixta",
       "category": "1 Kg",
       "image": "/p_4.jpg",
+      "grammage": "1 Kg",
+      "providerCost": 80,
+      "pieces": 1
+    },
+    {
+      "id": "p_23",
+      "name": "Fritura Cuadro",
+      "category": "1 Kg",
+      "image": "/p_23.jpg",
       "grammage": "1 Kg",
       "providerCost": 80,
       "pieces": 1
@@ -121,7 +130,7 @@
       "id": "p_15",
       "name": "Dulcero (30 pz)",
       "category": "Dulceros",
-      "image": "/p_15.png",
+      "image": "/p_15.jpg",
       "grammage": "15 - 20 g",
       "providerCost": 80,
       "pieces": 30
@@ -130,7 +139,7 @@
       "id": "p_16",
       "name": "Dulcero (50 pz)",
       "category": "Dulceros",
-      "image": "/p_16.png",
+      "image": "/p_16.jpg",
       "grammage": "15 - 20 g",
       "providerCost": 110,
       "pieces": 50
